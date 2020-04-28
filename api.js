@@ -165,6 +165,6 @@ app.get('/list',function (req, res){
     })
 })
 
-server.listen('8087', '172.16.100.117', () => {
-    console.log('open Browser on http://172.16.100.117:8087')
+server.listen('8087', '127.0.0.1', () => {
+    console.log('open Browser on http://127.0.0.1:8087')
 })
